@@ -7,8 +7,8 @@ import Carrusel from './Carrusel';
 import Restaurantes from './Restaurantes';
 import Platillos from './Platillos';
 import Cards from './Cards';
-import Parallax from './Parallax';
 import Footer from './Footer';
+import Cart from './Cart';
 
 function Home(){
     return(
@@ -23,6 +23,7 @@ function Home(){
             <Platillos/>
             <Cards/>
             <Footer/>
+            <Cart/>
         </div>
     );
 }
